@@ -17,49 +17,22 @@ actually better.
 
 ## Procedure
 
-### 1. Use this prompt, run it twice
+### 1. Prompt
 
-Use a single, identical prompt for both runs so the comparison is fair. This
-evaluation uses the following prompt:
+> Use a single, identical prompt for both runs so the comparison is fair. This
+> evaluation uses the following prompt:
 
-> Create one professional keynote-style presentation slide titled "The Intelligence Explosion: Why AI is Different This Time".
->
-> **Overall Objective:** Design a slide that immediately captures attention and communicates that artificial intelligence is fundamentally different from previous technological revolutions because it compounds knowledge, learns continuously, and accelerates itself.
->
-> **Layout**
-> - Use a 16:9 widescreen layout.
-> - Divide the slide into approximately 40% text (left) and 60% visuals (right).
-> - Maintain generous whitespace with a clean, premium appearance.
->
-> **Color Palette**
-> - Background: dark navy (#071A2F) with a subtle radial gradient.
-> - Accent colors: Electric blue (#3FA9F5), Cyan (#4FF2E9), White (#FFFFFF).
-> - Avoid bright reds or distracting colors.
->
-> **Typography**
-> - Title: Inter Bold or SF Pro Display Bold, ~36–42 pt, white.
-> - Body: Inter Regular, 20–24 pt, light gray (#EAEAEA).
-> - Highlight important keywords in cyan.
->
-> **Left Side Content**
-> Title: "The Intelligence Explosion"
-> Subtitle: "AI is not just another tool—it is a system that continuously improves, compounds knowledge, and amplifies human capability."
-> Three concise key points (each under 12 words):
-> - Learns from every interaction instead of remaining static.
-> - Automates reasoning, not just repetitive work.
-> - Improves faster as more people use and refine it.
->
-> **Right Side Visual**
-> A clean vector-style illustration showing a glowing AI core in the center, with interconnected nodes radiating outward, each representing a domain (Healthcare, Finance, Education, Science, Manufacturing, Cybersecurity). Curved glowing lines connect every node back to the AI core. Around the outside, faint mathematical equations and binary digits subtly fade into the background. The visual should communicate exponential growth and knowledge propagation rather than robotics.
->
-> **Background Details**
-> Very subtle grid pattern, soft glowing particles, thin circuit-like lines in the corners, low opacity (10–15%) so they do not distract.
->
-> **Design Principles**
-> Modern Apple keynote aesthetic, minimal text, high contrast, premium corporate technology style, no clip art, no stock-photo look, consistent spacing and alignment.
->
-> **Speaker Impact**
-> The audience should understand the main message within 5 seconds. The slide should feel inspiring, futuristic, and suitable for presenting to investors, judges, or senior executives at an AI innovation competition.
+> Create a 5-slide presentation on the topic “Technology.” The presentation should have a modern, professional, and clean design with a > > > > consistent blue, white, and dark grey color scheme. Use minimal text, relevant icons, and high-quality visuals. Keep each slide visually > > balanced and easy to read.
+
+> Slides:
+
+> 1. Title – Technology: Shaping the Future with an engaging cover image.
+> 2. Introduction – Define technology and explain its importance in everyday life.
+> 3. Key Technologies – Briefly introduce AI, robotics, cloud computing, and the Internet of Things.
+> 4. Benefits & Challenges – Summarise the advantages and disadvantages of technological advancements.
+> 5. Conclusion – Recap the main points and end with a forward-looking statement about the future of technology.
+
+> Use a professional layout, clear headings, and concise bullet points throughout.
 
 **Run 1 — Without the skill:** Start a fresh Claude Sonnet 5 (Low) conversation
 with the skill *not* installed, and give it the prompt above. Let Claude
