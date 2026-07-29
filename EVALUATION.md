@@ -2,14 +2,12 @@
 
 This document describes how to test whether the `slide-deck-creator` skill actually
 improves the decks Claude produces, and how to have an independent judge model
-(ChatGPT) score the two outputs head-to-head. Fill in the **Results** section
-after you've run the procedure — this file ships as a template, not a claim.
+(ChatGPT) score the two outputs head-to-head. 
 
 ## Why an external judge
 
-Claude shouldn't grade its own homework. Using ChatGPT as the judge avoids the
-obvious bias of asking the same model (and the same skill-writer) to evaluate
-its own output, and gives you a second, independent opinion on which deck is
+Claude shouldn't grade its generated content. Using ChatGPT as the judge avoids the
+ bias of asking the same model to evaluate its own output, and gives you a second, independent opinion on which deck is
 actually better.
 
 ## Models used
@@ -17,17 +15,12 @@ actually better.
 - **Deck generation:** Claude Sonnet 5, Low reasoning effort.
 - **Judging:** GPT-5.5 Thinking (ChatGPT).
 
-Keep these fixed across both runs — if you swap either model, note it clearly,
-since a different generation or judge model invalidates a direct comparison
-with prior results.
-
 ## Procedure
 
 ### 1. Use this prompt, run it twice
 
 Use a single, identical prompt for both runs so the comparison is fair. This
-evaluation uses the following prompt (a single-slide, detailed keynote-style
-design brief):
+evaluation uses the following prompt:
 
 > Create one professional keynote-style presentation slide titled "The Intelligence Explosion: Why AI is Different This Time".
 >
