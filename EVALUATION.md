@@ -68,11 +68,11 @@ design brief):
 > **Speaker Impact**
 > The audience should understand the main message within 5 seconds. The slide should feel inspiring, futuristic, and suitable for presenting to investors, judges, or senior executives at an AI innovation competition.
 
-**Run A — Without the skill:** Start a fresh Claude Sonnet 5 (Low) conversation
-with the skill *not* installed/enabled, and give it the prompt above. Let Claude
+**Run 1 — Without the skill:** Start a fresh Claude Sonnet 5 (Low) conversation
+with the skill *not* installed, and give it the prompt above. Let Claude
 build the slide however it normally would.
 
-**Run B — With the skill:** Start another fresh Claude Sonnet 5 (Low)
+**Run 2 — With the skill:** Start another fresh Claude Sonnet 5 (Low)
 conversation with `slide-deck-creator` installed, give it the exact same
 prompt, and go through its normal flow (interview questions, outline
 confirmation, build). Note: since this prompt is a single fully-specified
