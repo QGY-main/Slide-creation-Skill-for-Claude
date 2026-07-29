@@ -52,8 +52,7 @@ don't hand-edit either output afterward.
 
 ### 2. Get both decks into a judge-readable form
 
-ChatGPT can't open a raw `.pptx` reliably in every context, so convert both
-decks to a form it can actually see:
+ChatGPT can't open a raw `.pptx` reliably in every context, hence:
 
 - Export each `.pptx` to PDF (PowerPoint/Keynote/Google Slides: File → Export/Download → PDF), or
 - Take a screenshot of each slide and combine them into one image-per-slide set.
@@ -76,16 +75,8 @@ bias) and use a prompt like:
 
 Paste ChatGPT's full response into the Results section below, unedited.
 
-### 4. Repeat for a second, different prompt (recommended)
 
-One comparison can be noisy. Running the same A/B test on a second, unrelated
-prompt (different topic/audience) makes the result more trustworthy before you
-draw a conclusion.
-
-### 5. Record the verdict
-
-Fill in the table below from ChatGPT's scores, and note the overall winner it
-named for each run.
+### 4. Record the verdict
 
 ## Results
 
