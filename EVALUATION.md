@@ -154,14 +154,7 @@ Generation model: Claude Sonnet 5 (Low). Judge model: GPT-5.5 Thinking.
 
 **ChatGPT's justification:** _[paste here]_
 
-## Notes / caveats
+## Notes
 
-- A judge model's scores are opinions, not ground truth — treat this as one
-  useful signal, not a formal benchmark.
-- Keep the underlying prompt, audience, and slide-count identical across both
-  runs; varying more than one thing at a time makes it impossible to attribute
-  the difference to the skill itself.
-- If ChatGPT's judgment seems to hinge mostly on cosmetic polish rather than
-  argument/content quality, consider re-running with a rubric that weights
-  content structure more heavily (see `references/how-to-use.md` in the skill
-  itself for the content-structure criteria this skill tries to encourage).
+- A judge model's scores are subjective, exercise caution when viewing
+
