@@ -23,7 +23,8 @@ actually better.
 > evaluation uses the following prompt:
 
 > Create a 5-slide presentation on the topic “Technology.” The presentation should have a modern, professional, and clean design with
-> consistent blue, white, and dark grey color scheme. Use minimal text, relevant icons, and high-quality visuals. Keep each slide visually > balanced and easy to read.
+> consistent blue, white, and dark grey color scheme. Use minimal text, relevant icons, and high-quality visuals. Keep each slide visually
+> balanced and easy to read.
 
 > Slides:
 
@@ -32,8 +33,7 @@ actually better.
 > 3. Key Technologies – Briefly introduce AI, robotics, cloud computing, and the Internet of Things.
 > 4. Benefits & Challenges – Summarise the advantages and disadvantages of technological advancements.
 > 5. Conclusion – Recap the main points and end with a forward-looking statement about the future of technology.
-
-> Use a professional layout, clear headings, and concise bullet points throughout.
+> 6. Use a professional layout, clear headings, and concise bullet points throughout.
 
 **Run 1 — Without the skill:** Start a fresh Claude Sonnet 5 (Low) conversation
 with the skill *not* installed, and give it the prompt above. Let Claude
