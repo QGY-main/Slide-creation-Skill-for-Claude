@@ -22,7 +22,8 @@ actually better.
 > Use a single, identical prompt for both runs so the comparison is fair. This
 > evaluation uses the following prompt:
 
-> Create a 5-slide presentation on the topic “Technology.” The presentation should have a modern, professional, and clean design with a > > > > consistent blue, white, and dark grey color scheme. Use minimal text, relevant icons, and high-quality visuals. Keep each slide visually > > balanced and easy to read.
+> Create a 5-slide presentation on the topic “Technology.” The presentation should have a modern, professional, and clean design with
+> consistent blue, white, and dark grey color scheme. Use minimal text, relevant icons, and high-quality visuals. Keep each slide visually > balanced and easy to read.
 
 > Slides:
 
